@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+body {
+    width: 100vw;
+    height: auto;
+    padding: 20px;
+  }
+.wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    padding: 5%;
+  }
+.idPerfil {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+  }
+@media (width <= 900px) {
+    .center {
+      justify-content: center;
+      gap: 2vh;
+    }
+  }
+
+.btn-carrinho{
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  background: rgb(50, 184, 236);
+  border-radius: 10px;
+  border: 2px solid black;
+  text-decoration: none;
+  color: black;
+}
