@@ -6,6 +6,7 @@ body {
     width: 100vw;
     height: auto;
     padding: 20px;
+
   }
 .wrap {
     display: flex;
@@ -30,12 +31,17 @@ body {
   }
 
 .btn-carrinho{
-  display: flex;
-  justify-content: flex-end;
-  padding: 10px;
-  background: rgb(50, 184, 236);
-  border-radius: 10px;
-  border: 2px solid black;
+  background: rgb(48, 77, 244);
+  border-radius: 5px;
   text-decoration: none;
-  color: black;
+  color: rgb(255, 255, 255);
+  font-weight: bolder;
+  padding: 10px;
+  margin-left: 1700px;
+}
+
+.card-img{
+  object-fit: cover;
+  width: 100px;
+  height: 100%;
 }

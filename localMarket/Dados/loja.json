@@ -14,7 +14,19 @@
   {
     "id": 3,
     "descricao": "Produto 3",
-    "imagem": "https://skinquer.com.br/cdn/shop/articles/blogordem.jpg?v=1687270129",
+    "imagem": "https://s2-oglobo.glbimg.com/7SfsTWG2gJ9qWgNx2oMlxq8-vdA=/0x339:3300x2992/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_da025474c0c44edd99332dddb09cabe8/internal_photos/bs/2024/i/7/UrKNAsTe6R3bfdKNkPyg/bum-bum-cream.jpg",
     "preco": 30.0
+  },
+  {
+    "id": 4,
+    "descricao": "Produto 4",
+    "imagem": "https://m.media-amazon.com/images/I/51wrCx1tkpL._AC_UF894,1000_QL80_.jpg",
+    "preco": 130.0
+  },
+  {
+    "id": 5,
+    "descricao": "Produto 5",
+    "imagem": "https://skelt.vtexassets.com/arquivos/ids/156597-800-auto?v=638361940679700000&width=800&height=auto&aspect=true",
+    "preco": 50.0
   }
 ]

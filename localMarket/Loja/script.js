@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
     .then((data) => {
       produtos = data;
       const produtosContainer =
-        document.getElementsByTagName("produtos-container");
+        document.getElementById("produtos-container");
 
       produtos.forEach((produto, index) => {
         const card = document.createElement("div");
@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const imagem = document.createElement("img");
         imagem.src = produto.imagem;
-        imagem.className = "card-img-top";
+        imagem.className = "card-img";
 
         const cardBody = document.createElement("div");
         cardBody.className = "card-body";
